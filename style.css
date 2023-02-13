@@ -1,0 +1,70 @@
+html,
+body{
+    height: 100%;
+    margin: 0;
+    font-size: 25px;
+    font-family: "Lato",sans-serif;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.pimg1{
+    background-image: url(Assets/ff1.jpg);
+    min-height: 550px;   
+}
+.pimg2{
+    background-image: url(Assets/cod1.jpg);
+    min-height: 600px;   
+}
+
+.pimg3{
+    background-image: url(Assets/pg1.jpg);
+    min-height: 700px;   
+}
+
+.pimg1,
+.pimg2,
+.pimg3 {
+    background-color:rgba(10,10,10, 0.50);
+    background-blend-mode: multiply;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.textBg{
+    background: #313534;
+    color: #fff;
+    padding: 5px 5px 5px 10px;
+}
+
+.section{
+    text-align: center;
+    padding: 50px 100px 50px 100px;
+}
+
+.section-light{
+    background-color: #dedede;
+    color: rgb(102, 102, 102);
+}
+
+.section-dark{
+    background-color: #282e34;
+    color: #ddd;
+}
+
