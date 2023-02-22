@@ -49,6 +49,7 @@ body{
 
 .textBg{
     background: #313534;
+    text-decoration:none;
     color: #fff;
     padding: 5px 5px 5px 10px;
 }
